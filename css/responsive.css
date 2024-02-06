@@ -1,0 +1,53 @@
+@media screen and (min-width: 600px) {
+  body {
+    background-size: cover;
+    height: 110vh;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 1fr;
+    justify-items: center;
+  }
+
+  button {
+    background-color: white;
+    color: darkred;
+    border: white;
+    text-align: center;
+    width: 350px;
+    height: auto;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10%;
+    padding: 10px;
+    margin: auto;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+  }
+
+  .topnav {
+    gap: 3em;
+    list-style-type: none;
+  }
+
+  li a {
+    font-size: 20px;
+  }
+
+  li a:hover {
+    color: #f3e490;
+  }
+}
